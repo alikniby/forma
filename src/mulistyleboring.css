@@ -1,0 +1,176 @@
+/* Ändra bakgrundsfärgen och lägg till en mer dämpad färgpalett */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Anpassa navigationsfärgerna för bättre kontrast och läsbarhet */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #512da8;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover, nav a:focus {
+    color: #e6e6e6;
+    text-decoration: underline;
+  }
+  
+  /* Använd en lättläst teckensnittsstorlek och öka radhöjden för bättre läsbarhet */
+  h1, p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  /* Lägg till tydlig hover- och fokuseffekter för knappar */
+  .overlay__btn:hover, .overlay__btn:focus {
+    background-color: #fff;
+    color: #3f51b5;
+    cursor: pointer;
+    outline: none;
+    text-decoration: underline;
+  }
+  
+  
+  .math-quiz {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .math-quiz h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3b3b3b;
+  }
+  
+  .math-quiz p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3b3b3b;
+    margin-bottom: 10px;
+  }
+  
+  .math-quiz form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .math-quiz p:first-child {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3b3b3b;
+  }
+  
+  .math-quiz input[type='number'] {
+    font-size: 24px;
+    padding: 10px;
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .math-quiz input[type='number']:focus {
+    outline: none;
+    background-color: #FFF;
+
+  }
+  
+  .math-quiz button[type='submit'] {
+    background-color: #512da8;
+
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .math-quiz button[type='submit']:hover {
+    background-color: #512da8;
+
+  }
+  
+  .math-quiz div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .math-quiz button {
+    background-color: #512da8;
+
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .math-quiz button:hover {
+    background-color: #512da8;
+
+  }
+  .show-modal {
+    display: block;
+  }
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

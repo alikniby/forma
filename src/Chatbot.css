@@ -1,0 +1,28 @@
+.chatbot {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+  }
+  
+  .chat-toggle {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #8781bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chat-toggle:focus {
+    outline: none;
+  }
+  

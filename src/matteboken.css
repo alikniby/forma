@@ -1,0 +1,68 @@
+/* Add your custom styles here */
+.matteboken {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #3d3d3d;
+    color: white;
+  }
+  
+  .header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    padding: 2rem;
+  }
+  
+  .exercise {
+    border: 1px solid #3d3d3d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .exercise-header {
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+  }
+  
+  .exercise-description {
+    margin-top: 1rem;
+  }
+  
+  .exercise-questions {
+    margin-top: 1rem;
+  }
+  
+  .exercise-question {
+    margin-top: 0.5rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #3d3d3d;
+    color: white;
+  }
+  

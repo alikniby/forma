@@ -1,0 +1,72 @@
+/* Ändra bakgrundsfärgen och lägg till en mer dämpad färgpalett */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Anpassa navigationsfärgerna för bättre kontrast och läsbarhet */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #512da8;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover, nav a:focus {
+    color: #e6e6e6;
+    text-decoration: underline;
+  }
+  
+  /* Använd en lättläst teckensnittsstorlek och öka radhöjden för bättre läsbarhet */
+  h1, p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  /* Lägg till tydlig hover- och fokuseffekter för knappar */
+  .overlay__btn:hover, .overlay__btn:focus {
+    background-color: #fff;
+    color: #3f51b5;
+    cursor: pointer;
+    outline: none;
+    text-decoration: underline;
+  }
+  
+
+.fact-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+  
+  .fact-popup .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .fact-popup .content {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .fact-popup .content button {
+    margin-top: 20px;
+  }
+  

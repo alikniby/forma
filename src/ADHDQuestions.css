@@ -1,0 +1,106 @@
+.question {
+    margin-bottom: 20px;
+  }
+  
+  .question label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold; /* Add this line */
+  }
+  
+  .question input[type="radio"] {
+    margin: 0 10px 0 5px;
+  }
+  
+ /* ... other styles ... */
+
+.radio-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .radio-option {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+/* Add these styles */
+.fact-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    align-items: center; /* Add this line */
+    justify-content: center; /* Add this line */
+  }
+  
+  
+  .fact-popup.visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fact-popup .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .fact-popup .content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 10000;
+  }
+  .AlgebraCourse {
+    position: relative;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .normal {
+    font-size: 16px;
+  }
+  
+  .large {
+    font-size: 20px;
+  }
+  
+  .wide {
+    line-height: 2;
+  }
+  
+  .sans-serif {
+    font-family: Arial, sans-serif;
+  }
+  
+  .serif {
+    font-family: Georgia, serif;
+  }
+  
+  .regular {
+    background-color: white;
+    color: black;
+  }
+  
+  .night {
+    background-color: #333;
+    color: white;
+  }
+  
+  .high-contrast {
+    background-color: black;
+    color: yellow;
+  }
+  
